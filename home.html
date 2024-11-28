@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HOME</title>
+
+  <link rel="stylesheet" href="./assetes/font/inter/stylesheet.css">
+  <link rel="stylesheet" href="./assetes/font/Jost/stylesheet.css">
+  <link rel="stylesheet" href="./assetes/icon/fonts/remixicon.css">
+  <link rel="stylesheet" href="./assets/font/Jost/stylesheet.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    img {
+      display: block;
+    }
+
+    .container-1 {
+      max-width: 1320px;
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+
+    .banner-items .banner-content h5,
+    .about-content h5,
+    .admissions-title h5,
+    .education-title h5 {
+      font-family: 'Jost';
+      /* color: #1B7BE2 ; */
+    }
+
+    .banner-items .banner-content h1 .admissions-title {
+      font-family: 'Inter 18pt';
+      /* max-width: 300px; */
+      width: 900px;
+    }
+
+    .banner-items .banner-content p,
+    .about-content p {
+      font-family: 'Inter 18pt';
+
+    }
+
+    .banner {
+      background: url(./assetes/images/banner.png), linear-gradient(83.52deg, rgba(49, 72, 94, 0.8) 6.85%, rgba(58, 52, 75, 0) 122.1%);
+      background-size: cover;
+      height: 800px;
+      padding: 300px 0;
+      background-blend-mode: darken;
+
+    }
+
+
+
+    /* ABOUT  */
+
+    .container {
+      max-width: 1479px;
+      margin: 0;
+      padding: 0 15px;
+
+    }
+
+    .about-content h2 {
+      font-family: 'Inter 18pt';
+    }
+
+    /* ADMISSIONS */
+
+
+    .admission .container {
+      max-width: 1440px;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* EDUCATION */
+
+
+    .education .container {
+      container: 1920px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .education-title {
+      max-width: 1089px;
+      margin: 0 auto;
+    }
+  </style>
+
+</head>
+
+<!-- HEADER -->
+
+<body>
+
+  <header class=" justify-between absolute top-0 right-0 left-0  bg-white">
+    <div class="container mx-auto flex px-8 items-center justify-between py-3   ">
+      <a>
+        <img src="./assetes/images/podar-logo.png" class="w-40" />
+      </a>
+      <nav>
+        <ul class="flex">
+          <li class="px-5">
+            <a href="./home.html">Home</a>
+          </li>
+          <li class="px-5">
+            <a href="./aboutUs.html">About Us</a>
+          </li>
+          <li class="px-5">
+            <a href="./whychooseUs.html">Why Choose Us</a>
+          </li>
+          <li class="px-5">
+            <a href="./admission.html">Admissions</a>
+          </li>
+          <li class="px-5">
+            <a href="./blog.html">Blogs</a>
+          </li>
+          <li class="px-5">
+            <a href="./blog2.html">Blogs</a>
+          </li>
+          <li class="px-5">
+            <a href="./contactUs.html">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="text-white">
+        <a href="javascript:void(0)" style="background: rgba(132, 61, 141, 1);" class=" px-4 py-3">Enquire Now
+          <i class="ri-arrow-right-line"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- BANNER -->
+
+  <section class="banner  w-full flex justify-center items-center mb-28 ">
+
+    <div class="container mx-auto">
+      <div class="banner-items">
+        <div class="banner-content " style="position: absolute; top:30%;
+                left: 10%;">
+          <h5 class="text-2xl font-bold" style="color: #1B7BE2 ; position: relative">Let’s Education<img
+              src="./assetes/images/Vector.png" class="w-5" style="position: absolute; top:16%; left: 25.5%;" /></h5>
+          <h1 class="text-7xl font-bold py-4" style="color: #FFFFFF; max-width:700px">Free Online Courses From The
+            Experts</h1>
+          <p class="font-normal text-lg max-w-xl leading-6	mb-5" style="color: #FFFFFF">Lorem Ipsum is simply dummy text
+            of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+          <div class="text-white">
+            <a href="javascript:void(0)" class="rounded py-3 px-3" style="background: rgba(132, 61, 141, 1);"
+              class=" px-4 py-3">Apply Now
+              <i class="ri-arrow-right-line"></i>
+            </a>
+            <button class="border py-2 px-3 ml-6">Download Brochure
+              <i class="ri-download-2-line"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+  </section>
+
+
+  <!-- ABOUT -->
+
+  <section class="about">
+    <div class="container-1 mx-auto">
+      <div class="about-inner">
+        <div class="flex flex-wrap">
+          <div class="w-6/12">
+            <div class="about-img relative pl-28">
+              <img src="./assetes/images/home-3.png" class="w-[500px]" />
+              <img src="./assetes/images/home-4.png" class="w-[400px]"
+                style="position: absolute; top:-7%; left: 12%;z-index: -1;" />
+            </div>
+          </div>
+          <div class="w-6/12">
+            <div class="about-content">
+              <p class="font-bold my-2" style="color: #1B7BE2;">About the Education School</p>
+              <h2 class="text-[32px] font-bold my-2">Podar Education NetWork </h2>
+              <p style="color: #9B9999; " class="my-2 text-sm leading-6">Educating 2,30,000 students through 144 Podar
+                International Schools Podar Partner Schools, Podar Education Network has established itself as a leader
+                in the education sector. Established in 1927, Podar Education Network’s aim is not just to impart
+                knowledge but to foster the growth of responsible, well-rounded, and lifelong learners who can
+                contribute positively to society.</p>
+              <p style="color: #9B9999;" class="mb-8  text-sm leading-6">Nemo enim ipsam voluptatem quia voluptas sit
+                aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
+                nesciunt. sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                voluptatem.</p>
+              <a href="javascript:void(0)" class="rounded py-3 px-3  text-white" style="background: #0C54A0;"
+                class="  px-4 py-3">Read More
+                <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ADMISSIONS -->
+
+  <section class="admissions mt-16 ml-[240px]">
+    <div class="container mx-auto">
+      <div class="admissions-title">
+        <h5 class="text-2xl font-bold" style="color: #1B7BE2">Admissions</h5>
+        <h2 class="font-bold text-5xl py-4 leading-[55px]">Information On Podar International School</h2>
+      </div>
+      <div class="admissions-inner mt-[40px]">
+        <div class="flex">
+          <div class="w-3/12">
+            <div class="admissions-items rounded  mr-5 relative p-8" style="box-shadow: 0px 0px 50px 0#0000000D;">
+              <img src="./assetes/images/b-1.png" alt="" class="w-12">
+              <img src="./assetes/images/01.png" class="flex w-12" style="position: absolute; top:10px;  left: 60%;" />
+              <p class="font-bold text-lg my-2">Locations</p>
+              <p style="color: #9B9999;">Nemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
+            </div>
+          </div>
+          <div class="w-3/12">
+            <div class="admissions-items rounded mr-5 relative p-8" style="box-shadow: 0px 0px 50px 0#0000000D;">
+              <img src="./assetes/images/b-2.png" alt="" class="w-12">
+              <img src="./assetes/images/02.png" class="flex w-12" style="position: absolute; top:10px;left: 60%;" />
+              <p class="font-bold text-lg my-2">Fee Structure</p>
+              <p style="color: #9B9999;">Nemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
+            </div>
+          </div>
+          <div class="w-3/12">
+            <div class="admissions-items  rounded text-white mr-5 relative p-8" style="background: #853D8D;">
+              <img src="./assetes/images/b-3.png" alt="" class="w-12">
+              <img src="./assetes/images/03.png" class="flex w-12" style="position: absolute; top:10px;left: 60%;" />
+              <p class="font-bold text-lg my-2">Admission Process</p>
+              <p class="text-white">Nemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
+            </div>
+          </div>
+          <div class="w-3/12">
+            <div class="admissions-items rounded mr-5 relative p-8" style="box-shadow: 0px 0px 50px 0#0000000D;">
+              <img src="./assetes/images/b-4.png" alt="" class="w-12">
+              <img src="./assetes/images/04.png" class="flex w-12" style="position: absolute; top:10px;left: 60%;" />
+              <p class="font-bold text-lg my-2">Enquiry Form</p>
+              <p style="color: #9B9999;">Nemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- EDUCATION -->
+  <div class="bg-white mt-[100px]">
+    <div class="text-center  py-[70px]">
+      <h2 class="text-sm font-semibold text-blue-600 uppercase " style="position: relative;">Journey Education
+        School<img src="./assetes/images/vectour-1.png " style=" position: absolute; top:-34%; left: 55.5%;" /></h2>
+      <h1 class="text-3xl font-bold text-gray-900 mt-2">
+        A Glimpse Into A Student’s Journey At Podar
+      </h1>
+    </div>
+
+    <div class=" bg-blue-600 py-12 mt-[180px]">
+      <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-white rounded-lg shadow-md overflow-hidden" style="transform: translateY(-50%);">
+          <img class="w-full h-60 object-cover" src="./assetes/images/education-4.png" alt="Student image"
+            style="background-size: cover;" />
+          <div class="p-4">
+            <h3 class="text-lg font-semibold text-gray-800">Symphonices</h3>
+            <p class="text-gray-600 text-sm mt-2">
+              Nemo enim ipsam see voluptatem quia voluptas sit aspernatur aut
+              odit aut fugit, consequuntur.
+            </p>
+            <button class="mt-4 px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded hover:bg-blue-700">
+              Read More →
+            </button>
+          </div>
+        </div>
+
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden" style="transform: translateY(-50%);">
+          <img class="w-full h-60 object-cover" src="./assetes/images/education-3.png" alt="Student image" />
+          <div class="p-4">
+            <h3 class="text-lg font-semibold text-gray-800">Remedial Learning</h3>
+            <p class="text-gray-600 text-sm mt-2">
+              Nemo enim ipsam see voluptatem quia voluptas sit aspernatur aut
+              odit aut fugit, consequuntur.
+            </p>
+            <button class="mt-4 px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded hover:bg-blue-700">
+              Read More →
+            </button>
+          </div>
+        </div>
+
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden" style="transform: translateY(-50%);">
+          <img class="w-full h-60 object-cover" src="./assetes/images/education-2.png" alt="Student image" />
+          <div class="p-4">
+            <h3 class="text-lg font-semibold text-gray-800">Spell The Beans</h3>
+            <p class="text-gray-600 text-sm mt-2">
+              Nemo enim ipsam see voluptatem quia voluptas sit aspernatur aut
+              odit aut fugit, consequuntur.
+            </p>
+            <button class="mt-4 px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded hover:bg-blue-700">
+              Read More →
+            </button>
+          </div>
+        </div>
+
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden" style="transform: translateY(-50%);">
+          <img class="w-full h-60 object-cover" src="./assetes/images/education-1.png" alt="Student image" />
+          <div class="p-4">
+            <h3 class="text-lg font-semibold text-gray-800">Symphonices</h3>
+            <p class="text-gray-600 text-sm mt-2">
+              Nemo enim ipsam see voluptatem quia voluptas sit aspernatur aut
+              odit aut fugit, consequuntur.
+            </p>
+            <button class="mt-4 px-4 py-2 text-sm font-medium text-white bg-blue-600 rounded hover:bg-blue-700">
+              Read More →
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- WHY CHOOSE US -->
+
+  <section class="choose m-[130px]">
+    <div class="container-1 mx-auto">
+      <div class="choose-inner">
+        <div class="flex">
+          <div class="w-6/12">
+            <div class="choose-img mr-8">
+              <img src="./assetes/images/choose-1.png" class="w-auto" />
+            </div>
+          </div>
+          <div class="w-6/12">
+            <div class="choose-content mt-8">
+              <h2 style="color: #1B7BE2; position: relative;" class="mb-2 font-bold">Why Choose Us<img
+                  src="./assetes/images/vectour-1.png" style="position: absolute; top:-12%; left: 18.5%;" /></h2>
+              <h3 class="text-[35px] mb-4 font-bold max-w-lg">Discover the Excellence of Podar Education</h3>
+              <ul class="flex font-semibold">
+                <li class="flex mr-10">
+                  <img src="./assetes/images/circale.png" class="w-4 h-4 mt-1 mr-2" />
+                  <p>The Right Curriculum</p>
+                </li>
+                <li class="flex ml-4 mb-2">
+                  <img src="./assetes/images/circale.png" class="w-4 h-4 mt-1 mr-2" />
+                  <p>The Right Faculty</p>
+                </li>
+              </ul>
+              <ul class="flex font-semibold">
+                <li class="flex mr-10 mb-2">
+                  <img src="./assetes/images/circale.png" class="w-4 h-4 mt-1 mr-2" />
+                  <p>The Right Environment</p>
+                </li>
+                <li class="flex ml-2 mb-2">
+                  <img src="./assetes/images/circale.png" class="w-4 h-4 mt-1 mr-2" />
+                  <p>The Right Approach</p>
+                </li>
+              </ul>
+              <ul class="flex font-semibold mb-8">
+                <li class="flex">
+                  <img src="./assetes/images/circale.png" class="w-4 h-4 mt-1 mr-2" />
+                  <p>The Right Skills</p>
+                </li>
+
+              </ul>
+              <a href="javascript:void(0)" class="text-white p-3 rounded" style="background-color: #0C54A0;">Know More
+                <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION DATA -->
+
+  <section class="data mx-[140px]">
+    <div class="conatiner-1 mx-auto text-center">
+      <div class="flex flex-wrap">
+        <div class="w-full">
+          <div class="bg-gray-50 py-10 px-5 rounded-lg" style="border: 3px solid rgba(132, 61, 141, 1)">
+            <div class="text-center">
+              <h6 class="text-sm font-bold text-blue-500" style="position: relative;">Education Data Our Activity
+                School<img src="./assetes/images/vectour-1.png" style="position: absolute; top:-17%; left: 57.5%;" /></h6>
+              <h2 class="text-[30px] font-bold text-gray-800 mt-1">Riipen in Numbers</h2>
+            </div>
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 mt-8 text-center">
+              <div>
+                <p class="text-4xl font-bold  num">96</p>
+                <p class="text-lg font-semibold pt-4 mt-2">Years of Experience</p>
+              </div>
+              <div>
+                <p class="text-4xl font-bold ">144</p>
+                <p class="text-lg font-semibold pt-4 mt-2">Podar International Schools</p>
+              </div>
+              <div>
+                <p class="text-4xl font-bold text-gray-800">101</p>
+                <p class="text-lg font-semibold pt-4 mt-2">Podar Partner Schools</p>
+              </div>
+              <div>
+                <p class="text-4xl font-bold text-gray-800">400</p>
+                <p class="text-lg font-semibold pt-4 mt-2">Podar Preschools</p>
+              </div>
+              <div>
+                <p class="text-4xl font-bold text-gray-800">2,30,00</p>
+                <p class="text-lg font-semibold pt-4 mt-2">Podar International Schools</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- PODAR INTITIVE -->
+
+  <section class="podar-intitive mt-[90px]">
+    <div class="container-1">
+      <div class=" mt-[10px] px-5 ">
+        <div class=" podar-title items-start justify-between">
+          <h6 class="text-sm font-bold text-blue-500" style="position: relative;">Our School<img
+              src="./assetes/images/vectour-1.png" style="position: absolute; top:-26%; left: 6.5%;" /></h6>
+          <h2 class="text-[40px] font-bold text-gray-800 mt-1">Podar Initiative</h2>
+
+        </div>
+        <div class="flex">
+          <button class="w-10 h-10  items-end bg-blue-500 text-white rounded-full hover:bg-blue-600">
+            ←
+          </button>
+          <button
+            class="w-10 h-10 flex justify-center items-center bg-blue-500 text-white rounded-full hover:bg-blue-600">
+            →
+          </button>
+        </div>
+      </div>
+
+
+      
+      <div class="mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+          <img src="./assetes/images/edu-1.png" alt="Podar International School"
+            class="w-full p-4 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-bold text-gray-800">Podar International School</h3>
+            <p class="text-sm text-gray-500 mt-2">Nemo enim ipsam see voluptatem quia voluptas sit. Nemo enim ipsam see
+              we avoluptatem quia voluptas twill becomquia consequuntur.</p>
+            <a
+              class="mt-4 inline-flex items-center border border-gray-400 p-3 rounded text-gray-600 font-medium hover:underline">
+              Read More <span class="ml-1">→</span>
+            </a>
+          </div>
+        </div>
+     
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+          <img src="./assetes/images/edu-2.png" alt="Podar Smarter School" class="w-full p-4 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-bold text-gray-800">Podar Smarter School</h3>
+            <p class="text-sm text-gray-500 mt-2">Nemo enim ipsam see voluptatem quia voluptas sit. Nemo enim ipsam see
+              we avoluptatem quia fugit, sed twill becomquia consequuntur.</p>
+            <button
+              class="mt-4 inline-flex items-center  border border-gray-400 p-3 rounded text-gray-600 font-medium hover:underline">
+              Read More <span class="ml-1">→</span>
+            </button>
+          </div>
+        </div>
+       
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+          <img src="./assetes/images/edu-3.png" alt="Podar Prep" class="w-full p-4 object-cover">
+          <div class="p-4">
+            <h3 class="text-lg font-bold text-gray-800">Podar Prep</h3>
+            <p class="text-sm text-gray-500 mt-2">Nemo enim ipsam see voluptatem quia voluptas sit. Nemo enim ipsam see
+              we avoluptatem quia fugit, sed twill becomquia consequuntur.</p>
+            <button
+              class="mt-4 inline-flex items-center border border-gray-400 p-3 rounded text-gray-600 font-medium hover:underline">
+              Read More <span class="ml-1">→</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </section>
+
+  <!-- QUICKS -->
+
+  <section class="quicks m-[120px]">
+    <div class="container-1 mx-auto">
+      <div class="bg-gray-800 py-8 rounded">
+        <h2 class="text-white text-center text-2xl font-semibold mb-6">Quick Links</h2>
+        <div class="flex justify-center gap-6">
+          <!-- About Us -->
+          <div class="bg-white shadow-lg rounded-lg p-4 text-center w-36">
+            <div class="mb-2">
+              <img src="./assetes/images/icons-6.png" class="w-12 mx-auto" />
+            </div>
+            <p class=" font-semibold text-sm">About Us</p>
+          </div>
+          <div class="bg-white shadow-lg rounded-lg p-4 text-center w-36">
+            <div class="mb-2">
+              <img src="./assetes/images/icons-7.png" class="w-12 mx-auto" />
+            </div>
+            <p class=" font-semibold text-sm">Podar Initiative</p>
+          </div>
+          <div class="bg-white shadow-lg rounded-lg p-4 text-center w-36">
+            <div class="mb-2">
+              <img src="./assetes/images/link-3.png" class="w-12 mx-auto" />
+            </div>
+            <p class=" font-semibold text-sm">Transport Policy</p>
+          </div>
+          <div class="bg-white shadow-lg rounded-lg p-4 text-center w-36">
+            <div class="mb-2">
+              <img src="./assetes/images/link-4.png" class="w-12 mx-auto" />
+            </div>
+            <p class=" font-semibold text-sm">Careers </p>
+          </div>
+
+
+          <div class="flex">
+
+          </div>
+        </div>
+  </section>
+
+  <!-- FEATUERS -->
+
+  <section class="podar-intitive mt-[90px]">
+    <div class="container-1">
+      <div class=" mt-[10px] px-5 flex">
+        <div class=" podar-title items-start pr-4">
+          <h6 class="text-lg font-medium  text-blue-500" style="position: relative;">Latest News <img
+              src="./assetes/images/vectour-1.png" style="position: absolute; top:-5%; left: 38.5%;" /></h6>
+          <h2 class="text-[40px] font-bold  mt-1">Featured News And Events</h2>
+          <p class="text-gray-600 py-4">Nemo enim ipsam see voluptatem quia we voluptas sit Nemo enim ipsam see we
+            avoluptatem quia voluptas sit aaspernatur aut odit aut fugit, sed twill becomquia consequuntur.</p>
+          <a href="javascript:void(0)" class="text-white p-3 rounded" style="background-color: #0C54A0;">View More
+            <i class="ri-arrow-right-line"></i>
+          </a>
+          <div class="flex justify-center items-center space-x-3 mt-6">
+          </div>
+        </div>
+
+
+
+        
+        <div class="mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+         
+          <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <img src="./assetes/images/blog-1.png" alt="Podar International School"
+              class="w-full p-4 object-cover">
+            <div class="p-4">
+              <h3 class="text-lg font-bold text-gray-800">Podar International School</h3>
+              <p class="text-sm text-gray-500 mt-2">Nemo enim ipsam see voluptatem quia voluptas sit. Nemo enim ipsam
+                see we avoluptatem quia voluptas twill becomquia consequuntur.</p>
+              <a class="mt-4 inline-flex items-center border border-gray-400 p-3 rounded text-white font-medium hover:underline"
+                style="background-color: #0C54A0;">
+                Read More <span class="ml-1">→</span>
+              </a>
+            </div>
+          </div>
+        
+          <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <img src="./assetes/images/blog-2.png" alt="Podar Smarter School" class="w-full p-4 object-cover">
+            <div class="p-4">
+              <h3 class="text-lg font-bold text-gray-800">Podar Smarter School</h3>
+              <p class="text-sm text-gray-500 mt-2">Nemo enim ipsam see voluptatem quia voluptas sit. Nemo enim ipsam
+                see we avoluptatem quia fugit, sed twill becomquia consequuntur.</p>
+              <button
+                class="mt-4 inline-flex items-center  border border-gray-400 p-3 rounded text-gray-600 font-medium hover:underline">
+                Read More <span class="ml-1">→</span>
+              </button>
+            </div>
+          </div>
+          
+          <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <img src="./assetes/images/bl-3.png" alt="Podar Prep" class="w-full p-4 object-cover">
+            <div class="p-4">
+              <h3 class="text-lg font-bold text-gray-800">Podar Prep</h3>
+              <p class="text-sm text-gray-500 mt-2">Nemo enim ipsam see voluptatem quia voluptas sit. Nemo enim ipsam
+                see we avoluptatem quia fugit, sed twill becomquia consequuntur.</p>
+              <button
+                class="mt-4 inline-flex items-center border border-gray-400 p-3 rounded text-gray-600 font-medium hover:underline">
+                Read More <span class="ml-1">→</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+  </section>
+
+  <!-- ACIEVMENTS -->
+
+  <div class="py-8 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl font-semibold text-gray-800 text-center">
+        <span class="text-blue-700">Podar Education <img src="./assetes/images/vectour-1.png"
+          style="position: absolute; top:-18%; left: 100.5%;" /></span> <br> Our Achievements
+      </h2> 
+      <div class="mt-8 relative">
+        
+        <div class="flex gap-6 overflow-x-auto snap-x snap-mandatory scrollbar-hide">
+        
+          <div class="min-w-[300px] flex-shrink-0 bg-white shadow-lg rounded-lg snap-start">
+            <img src="path-to-image-1.jpg" alt="Achievement 1" class="w-full rounded-t-lg">
+            <div class="p-4">
+              <p class="text-gray-600 text-sm">
+                Podar Education Network Chain Of Schools With Highest Number of Students will become (Mumbai Region
+                2023)
+              </p>
+            </div>
+          </div>
+          
+          <div class="min-w-[300px] flex-shrink-0 bg-white shadow-lg rounded-lg snap-start">
+            <img src="path-to-image-2.jpg" alt="Achievement 2" class="w-full rounded-t-lg">
+            <div class="p-4">
+              <p class="text-gray-600 text-sm">
+                Podar Education Network Chain Of Schools With Highest Number of Students will become (Mumbai Region
+                2023)
+              </p>
+            </div>
+          </div>
+          
+          <div class="min-w-[300px] flex-shrink-0 bg-white shadow-lg rounded-lg snap-start">
+            <img src="path-to-image-3.jpg" alt="Achievement 3" class="w-full rounded-t-lg">
+            <div class="p-4">
+              <p class="text-gray-600 text-sm">
+                Podar Education Network Chain Of Schools With Highest Number of Students will become (Mumbai Region
+                2023)
+              </p>
+            </div>
+          </div>
+        </div>
+
+       
+        <div class="absolute left-0 right-0 top-1/2 transform -translate-y-1/2 flex justify-between px-4">
+          <button
+            class="bg-blue-600 text-white w-10 h-10 flex items-center justify-center rounded-full shadow-md hover:bg-blue-700">
+            &#8249;
+          </button>
+          <button
+            class="bg-blue-600 text-white w-10 h-10 flex items-center justify-center rounded-full shadow-md hover:bg-blue-700">
+            &#8250;
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- FAQ -->
+
+
+  <section class="faqs my-[100px]">
+    <div class="container-1 mx-auto">
+      <div class="flex flex-wrap">
+        <div class="py-8 bg-gray-50">
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+            <div class="text-center mb-8">
+              <h2 class="text-3xl font-bold text-gray-800">
+                <span class="text-blue-600 text-lg  " style="position: 
+                      relative;">FAQ<img src="./assetes/images/vectour-1.png"
+                    style="position: absolute; top:-18%; left: 100.5%;" /></span> <br> Frequently Asked Questions
+              </h2>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+              
+              <div>
+                <div class="space-y-4">
+                 
+                  <details class="group border border-gray-200 rounded-lg p-4">
+                    <summary class="font-medium text-gray-700 cursor-pointer flex justify-between items-center">
+                      Provide Details About Podar International School?
+                      <span class="text-gray-600 group-open:rotate-180 transition-transform">&#9660;</span>
+                    </summary>
+                    <p class="mt-2 text-sm text-gray-600">
+                      The Podar Network Of Schools Provides A Diverse Range Of Educational Opportunities,
+                      Including The Central Board Of Secondary Education (CBSE),
+                      The Council For The Indian School Certificate Examinations (ICSE),
+                      The Secondary School Certificate (SSC), Cambridge (IGCSE),
+                      And The International Baccalaureate (IB).
+                    </p>
+                  </details>
+
+                  <!-- FAQ Item 2 -->
+                  <details class="group border border-gray-200 rounded-lg p-4">
+                    <summary class="font-medium text-gray-700 cursor-pointer flex justify-between items-center">
+                      Why Choose Podar International School?
+                      <span class="text-gray-600 group-open:rotate-180 transition-transform">&#9660;</span>
+                    </summary>
+                    <p class="mt-2 text-sm text-gray-600">
+                      Podar International School is renowned for its commitment to excellence and innovation in
+                      education.
+                    </p>
+                  </details>
+
+                  <!-- FAQ Item 3 -->
+                  <details class="group border border-gray-200 rounded-lg p-4">
+                    <summary class="font-medium text-gray-700 cursor-pointer flex justify-between items-center">
+                      What Sets Podar International School Apart?
+                      <span class="text-gray-600 group-open:rotate-180 transition-transform">&#9660;</span>
+                    </summary>
+                    <p class="mt-2 text-sm text-gray-600">
+                      It offers a holistic learning environment with a strong emphasis on academics, co-curricular
+                      activities, and modern facilities.
+                    </p>
+                  </details>
+
+                  <!-- FAQ Item 4 -->
+                  <details class="group border border-gray-200 rounded-lg p-4">
+                    <summary class="font-medium text-gray-700 cursor-pointer flex justify-between items-center">
+                      Which board does Podar school have?
+                      <span class="text-gray-600 group-open:rotate-180 transition-transform">&#9660;</span>
+                    </summary>
+                    <p class="mt-2 text-sm text-gray-600">
+                      Podar International School in Surat, Gujarat follows multiple boards, including CBSE, ICSE,
+                      Cambridge IGCSE, and International Baccalaureate:
+                    </p>
+                  </details>
+
+                  <!-- FAQ Item 5 -->
+                  <details class="group border border-gray-200 rounded-lg p-4">
+                    <summary class="font-medium text-gray-700 cursor-pointer flex justify-between items-center">
+                      How many branches are of Podar International School in India?
+                      <span class="text-gray-600 group-open:rotate-180 transition-transform">&#9660;</span>
+                    </summary>
+                    <p class="mt-2 text-sm text-gray-600">
+                      Nurturing The. Uniqueness Of Every. Student. Educating 2,50,000 students through 149 Podar
+                      International Schools + 122 Podar Partner Schools,
+                    </p>
+                  </details>
+
+                  <!-- FAQ Item 6-->
+                  <details class="group border border-gray-200 rounded-lg p-4">
+                    <summary class="font-medium text-gray-700 cursor-pointer flex justify-between items-center">
+                      Who is the owner / Trustee of Podar International School?
+                      <span class="text-gray-600 group-open:rotate-180 transition-transform">&#9660;</span>
+                    </summary>
+                    <p class="mt-2 text-sm text-gray-600">
+                      Dr. Pavan Podar is the chairman of Podar International School and the Podar Education Group. The
+                      Podar Education Group was founded in 1927 by Sheth Anandilal Podar.
+                    </p>
+                  </details>
+
+                 
+                  <details class="group border border-gray-200 rounded-lg p-4">
+                    <summary class="font-medium text-gray-700 cursor-pointer flex justify-between items-center">
+                      How can I get admission in Podar school?
+                      <span class="text-gray-600 group-open:rotate-180 transition-transform">&#9660;</span>
+                    </summary>
+                    <p class="mt-2 text-sm text-gray-600">
+                      Get Online Admission for your kid by one click at Podar International School. Check the process,
+                      documents, age norms & submit the enquiry form & we will ...
+                    </p>
+                  </details>
+
+                 
+                </div>
+              </div>
+
+              
+              <div class="flex justify-center">
+                <img src="./assetes/images/08.png" alt="FAQ Image" class="rounded-lg shadow-md w-[530px] h-[580px] ">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+
+
+  <footer style="background: rgba(12, 84, 160, 1); " class="text-white pt-28 pb-2 mt-20">
+    <div class="container-1 mx-auto">
+      <div class="footer-inner">
+        <img src="./assetes/images/banner-icone-1.png" style="position: absolute; top: -50;" class="w-[65px]" />
+        <img src="./assetes/images/book.png" style="position: absolute;left:90% ;" />
+
+        <div class="flex flex-wrap">
+          <div class="w-3/12">
+            <div class="footer-items">
+              <img src="./assetes/images/logo-2.png" class="w-10 mx-auto" />
+              <img src="./assetes/images/logo-1.png" class="w-40 mx-auto" />
+            </div>
+          </div>
+          <div class="w-3/12  mx-auto">
+            <div class="footer-items">
+              <ul>
+                <li class="font-bold text-lg">
+                  <a href="javascript:void(0)">Quick Links</a>
+                </li>
+                <li class="font-semibold pt-3">
+                  <a href="javascript:void(0)">About Us</a>
+                </li>
+                <li class="font-semibold py-1">
+                  <a href="javascript:void(0)">Why Podar</a>
+                </li>
+                <li class="font-semibold py-1">
+                  <a href="javascript:void(0)">Download Beachure</a>
+                </li>
+                <li class="font-semibold py-1">
+                  <a href="javascript:void(0)">Transport Policy</a>
+                </li>
+                <li class="font-semibold py-1">
+                  <a href="javascript:void(0)">Careers </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="w-3/12">
+            <div class="footer-items">
+              <ul>
+                <li class="font-bold text-lg">
+                  <a href="javascript:void(0)">Quick Links</a>
+                </li>
+                <li class="font-semibold pt-3">
+                  <a href="javascript:void(0)">Admissionss</a>
+                </li>
+                <li class="font-semibold py-1">
+                  <a href="javascript:void(0)">Locations</a>
+                </li>
+                <li class="font-semibold py-1">
+                  <a href="javascript:void(0)">FAQs</a>
+                </li>
+                <li class="font-semibold py-1">
+                  <a href="javascript:void(0)">Blog </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+
+
+          <div class="w-3/12">
+            <div class="footer-items">
+              <div class="get-content px-3">
+                <p class="text-lg font-bold pb-5">Keep In Touch</p>
+
+                <!-- LOCATION -->
+
+                <div class="flex items-start mb-4">
+                  <div class="text-purple-600">
+                    <i class="ri-map-pin-range-fill bg-white rounded-full p-2 text-lg inline text-center"
+                      style="  color:rgba(132, 61, 141, 1);"></i>
+                  </div>
+                  <div class="ml-4">
+
+                    <p class="text-sm text-white pb-2 font-semibold">
+                      85, Podar Centre, Chamarbaug Post Office Lane, Dr. Ambedkar Road, Parel,
+                      Mumbai, 400012. Maharashtra, India.
+                    </p>
+
+                  </div>
+                </div>
+
+                <!-- number -->
+
+                <div class="flex items-start mb-4">
+                  <div class="text-purple-600 w-8 h-8 flex-shrink-0">
+                    <i class="ri-phone-fill bg-white rounded-full p-2  text-lg  inline text-center"
+                      style="  color:rgba(132, 61, 141, 1); "></i>
+                  </div>
+                  <div class="ml-4">
+                    <p class="text-sm text-white pb-2 font-semibold">022 43330000</p>
+                  </div>
+                </div>
+
+                <!-- EMAIL -->
+
+                <div class="flex items-start mb-6 ">
+                  <div class="w-8 h-8 flex-shrink-0 ">
+                    <i class="ri-mail-fill bg-white rounded-full p-2 text-lg mr-3 w-9 h-[34px]  inline text-center"
+                      style="  color:rgba(132, 61, 141, 1);"></i>
+                  </div>
+                  <div class="ml-4">
+
+                    <p class="text-sm text-white pb-2 font-semibold">admissions@podar.org</p>
+                  </div>
+                </div>
+
+
+
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- SOCIAL ICON -->
+
+    <div class="flex justify-center space-x-4">
+      <a href="javascript:void(0)" class="flex items-center justify-center w-10 h-10 border bg-white  rounded-full">
+        <img src="./assetes/images/f-1.png" />
+      </a>
+
+      <a href="javascript:void(0)" class="flex items-center justify-center w-10 h-10 border  bg-white  rounded-full">
+        <img src="./assetes/images/f-2.png" />
+      </a>
+      <a href="javascript:void(0)" class="flex items-center justify-center w-10 h-10 border bg-white  rounded-full">
+        <img src="./assetes/images/f-3.png" />
+      </a>
+
+      <a href="javascript:void(0)" class="flex items-center justify-center w-10 h-10 border bg-white  rounded-full">
+        <img src="./assetes/images/f-4.png" />
+      </a>
+    </div>
+
+    <!-- COPYRIGHT -->
+
+    <div class="copyright">
+      <div class="text-center text-white pt-10">
+        <a href="javascript:void(0)">Copyright 2022|Privacy Policy| Terms & Conditions</a>
+      </div>
+    </div>
+
+    </div>
+  </footer>
+
+</body>

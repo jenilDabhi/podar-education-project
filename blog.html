@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+
+    <link rel="stylesheet" href="./assetes/icon/fonts/remixicon.css">
+    <link rel="stylesheet" href="./assetes/font/inter/stylesheet.css">
+    <link rel="stylesheet" href="./assetes/font/Jost/stylesheet.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        img {
+            display: block;
+            background-size: cover;
+        }
+
+        .jost {
+            font-family: 'Jost';
+        }
+
+        .inter {
+            font-family: 'Inter 18pt';
+        }
+
+        .black {
+            color: #3D3D3D;
+        }
+
+        .gray {
+            color: #7F7D7D;
+        }
+
+        .banner {
+            background: url(./assetes/images/banner.png), linear-gradient(83.52deg, rgba(49, 72, 94, 0.8) 6.85%, rgba(58, 52, 75, 0) 122.1%);
+            height: 770px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            top: 30px;
+            background-blend-mode: darken;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header class=" justify-between absolute top-0 right-0 left-0  bg-white">
+        <div class="container mx-auto flex px-8 items-center justify-between py-3   ">
+            <a>
+                <img src="./assetes/images/podar-logo.png" class="w-40" />
+            </a>
+            <nav>
+                <ul class="flex inter">
+                    <li class="px-5">
+                        <a href="./home.html">Home</a>
+                    </li>
+                    <li class="px-5">
+                        <a href="./aboutUs.html">About Us</a>
+                    </li>
+                    <li class="px-5">
+                        <a href="./whychooseUs.html">Why Choose Us</a>
+                    </li>
+                    <li class="px-5">
+                        <a href="./admission.html">Admissions</a>
+                    </li>
+                    <li class="px-5">
+                        <a href="./blog.html">Blogs</a>
+                    </li>
+                    <li class="px-5">
+                        <a href="./blog2.html">Blogs</a>
+                    </li>
+                    <li class="px-5">
+                        <a href="./contactUs.html">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="text-white">
+                <a href="javascript:void(0)" style="background: rgba(132, 61, 141, 1);" class=" px-4 py-3">Enquire Now
+                    <i class="ri-arrow-right-line"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- BANNER#########  -->
+
+    <section class="banner flex flex-wrap items-center mb-28">
+        <div class="">
+            <div class="items">
+                <div class="banner-content">
+                    <h2 class="text-5xl text-white p-28 font-semibold inter">Blog <img src="./assetes/images/Vector.png"
+                            class="w-5" style="position: absolute; top:40%; left: 12%;" /></h2>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- ###### -->
+
+    <div class="blog container mx-auto p-4 ">
+
+        <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+            <div class="blog-inner border rounded-lg shadow-lg overflow-hidden mb-6">
+                <div class="blog-img" style="position: relative;">
+                    <img src="./assetes/images/blog-1.png" alt="Blog Image" class="w-full h-50 object-cover"
+                        style="position: relative;" />
+                    <div class="absolute bottom-0 left-0 bg-blue-600 text-white text-sm font-bold py-1 px-2 rounded-md">
+                        <ul class="p-3">
+                            <li class="text-center">31</li>
+                            <li>AUG</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="blog-content py-4 px-10 hover:border-r-2 hover:border-indigo-500">
+                    <div>
+                        <h2 class="text-lg font-semibold mb-2 jost black">Principal's Blog 18 August 2023</h2>
+                        <p class="text-sm text-gray-600 mb-4 inter pr-4">Nemo enim ipsam see voluptatem quia voluptas
+                            sit Nemo enim ipsam see we avoluptatem quia voluptas.</p>
+                        <button class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 inter">
+                            Read More <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="blog-inner border rounded-lg shadow-lg overflow-hidden mb-6">
+                <div class="blog-img" style="position: relative;">
+                    <img src="./assetes/images/blog-2.png" alt="Blog Image" class="w-full h-50 object-cover"
+                        style="position: relative;" />
+                    <div class="absolute bottom-0 left-0 bg-blue-600 text-white text-sm font-bold py-1 px-2 rounded-md">
+                        <ul class="p-3">
+                            <li class="text-center">31</li>
+                            <li>AUG</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="blog-content py-4 px-10 hover:border-r-2 hover:border-indigo-500">
+                    <div>
+                        <h2 class="text-lg font-semibold mb-2 jost black">Principal's Blog 18 August 2023</h2>
+                        <p class="text-sm text-gray-600 mb-4 inter pr-4">Nemo enim ipsam see voluptatem quia voluptas
+                            sit Nemo enim ipsam see we avoluptatem quia voluptas.</p>
+                        <button class="hover:text-white border py-2 px-4 rounded hover:bg-blue-600 inter">
+                            Read More <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-inner border rounded-lg shadow-lg overflow-hidden mb-6">
+                <div class="blog-img" style="position: relative;">
+                    <img src="./assetes/images/bl-3.png" alt="Blog Image" class="w-full h-50 object-cover"
+                        style="position: relative;" />
+                    <div class="absolute bottom-0 left-0 bg-blue-600 text-white text-sm font-bold py-1 px-2 rounded-md">
+                        <ul class="p-3">
+                            <li class="text-center">31</li>
+                            <li>AUG</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="blog-content py-4 px-10 hover:border-r-2 hover:border-indigo-500">
+                    <div>
+                        <h2 class="text-lg font-semibold mb-2 jost black">Principal's Blog 18 August 2023</h2>
+                        <p class="text-sm text-gray-600 mb-4 inter pr-4">Nemo enim ipsam see voluptatem quia voluptas
+                            sit Nemo enim ipsam see we avoluptatem quia voluptas.</p>
+                        <button class="hover:text-white border py-2 px-4 rounded hover:bg-blue-600 inter">
+                            Read More <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-inner border rounded-lg shadow-lg overflow-hidden mb-6">
+                <div class="blog-img" style="position: relative;">
+                    <img src="./assetes/images/blog-4.png" alt="Blog Image" class="w-full h-50 object-cover"
+                        style="position: relative;" />
+                    <div class="absolute bottom-0 left-0 bg-blue-600 text-white text-sm font-bold py-1 px-2 rounded-md">
+                        <ul class="p-3">
+                            <li class="text-center">31</li>
+                            <li>AUG</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="blog-content py-4 px-10 hover:border-r-2 hover:border-indigo-500">
+                    <div>
+                        <h2 class="text-lg font-semibold mb-2 jost black">Principal's Blog 18 August 2023</h2>
+                        <p class="text-sm text-gray-600 mb-4 inter pr-4">Nemo enim ipsam see voluptatem quia voluptas
+                            sit Nemo enim ipsam see we avoluptatem quia voluptas.</p>
+                        <button class="hover:text-white border py-2 px-4 rounded hover:bg-blue-600 inter">
+                            Read More <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-inner border rounded-lg shadow-lg overflow-hidden mb-6">
+                <div class="blog-img" style="position: relative;">
+                    <img src="./assetes/images/blog-5.png" alt="Blog Image" class="w-full h-50 object-cover"
+                        style="position: relative;" />
+                    <div class="absolute bottom-0 left-0 bg-blue-600 text-white text-sm font-bold py-1 px-2 rounded-md">
+                        <ul class="p-3">
+                            <li class="text-center">31</li>
+                            <li>AUG</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="blog-content py-4 px-10 hover:border-r-2 hover:border-indigo-500">
+                    <div>
+                        <h2 class="text-lg font-semibold mb-2 jost black">Principal's Blog 18 August 2023</h2>
+                        <p class="text-sm text-gray-600 mb-4 inter pr-4">Nemo enim ipsam see voluptatem quia voluptas
+                            sit Nemo enim ipsam see we avoluptatem quia voluptas.</p>
+                        <button class="hover:text-white border py-2 px-4 rounded hover:bg-blue-600 inter">
+                            Read More <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-inner border rounded-lg shadow-lg overflow-hidden mb-6">
+                <div class="blog-img" style="position: relative;">
+                    <img src="./assetes/images/blog-6.png" alt="Blog Image" class="w-full h-50 object-cover"
+                        style="position: relative;" />
+                    <div class="absolute bottom-0 left-0 bg-blue-600 text-white text-sm font-bold py-1 px-2 rounded-md">
+                        <ul class="p-3">
+                            <li class="text-center">31</li>
+                            <li>AUG</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="blog-content py-4 px-10 hover:border-r-2 hover:border-indigo-500">
+                    <div>
+                        <h2 class="text-lg font-semibold mb-2 jost black">Principal's Blog 18 August 2023</h2>
+                        <p class="text-sm text-gray-600 mb-4 inter pr-4">Nemo enim ipsam see voluptatem quia voluptas
+                            sit Nemo enim ipsam see we avoluptatem quia voluptas.</p>
+                        <button class="hover:text-white border py-2 px-4 rounded hover:bg-blue-600 inter">
+                            Read More <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-inner border rounded-lg shadow-lg overflow-hidden">
+                <div class="blog-img" style="position: relative;">
+                    <img src="./assetes/images/blog-7.png" alt="Blog Image" class="w-full h-50 object-cover"
+                        style="position: relative;" />
+                    <div class="absolute bottom-0 left-0 bg-blue-600 text-white text-sm font-bold py-1 px-2 rounded-md">
+                        <ul class="p-3">
+                            <li class="text-center">31</li>
+                            <li>AUG</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="blog-content py-4 px-10 hover:border-r-2 hover:border-indigo-500">
+                    <div>
+                        <h2 class="text-lg font-semibold mb-2 jost black">Principal's Blog 18 August 2023</h2>
+                        <p class="text-sm text-gray-600 mb-4 inter pr-4">Nemo enim ipsam see voluptatem quia voluptas
+                            sit Nemo enim ipsam see we avoluptatem quia voluptas.</p>
+                        <button class="hover:text-white border py-2 px-4 rounded hover:bg-blue-600 inter">
+                            Read More <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-inner border rounded-lg shadow-lg overflow-hidden">
+                <div class="blog-img" style="position: relative;">
+                    <img src="./assetes/images/blog-8.png" alt="Blog Image" class="w-full h-50 object-cover"
+                        style="position: relative;" />
+                    <div class="absolute bottom-0 left-0 bg-blue-600 text-white text-sm font-bold py-1 px-2 rounded-md">
+                        <ul class="p-3">
+                            <li class="text-center">31</li>
+                            <li>AUG</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="blog-content py-4 px-10 hover:border-r-2 hover:border-indigo-500">
+                    <div>
+                        <h2 class="text-lg font-semibold mb-2 jost black">Principal's Blog 18 August 2023</h2>
+                        <p class="text-sm text-gray-600 mb-4 inter pr-4">Nemo enim ipsam see voluptatem quia voluptas
+                            sit Nemo enim ipsam see we avoluptatem quia voluptas.</p>
+                        <button class="hover:text-white border py-2 px-4 rounded hover:bg-blue-600 inter">
+                            Read More <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-inner border rounded-lg shadow-lg overflow-hidden">
+                <div class="blog-img" style="position: relative;">
+                    <img src="./assetes/images/blog-9.png" alt="Blog Image" class="w-full h-50 object-cover"
+                        style="position: relative;" />
+                    <div class="absolute bottom-0 left-0 bg-blue-600 text-white text-sm font-bold py-1 px-2 rounded-md">
+                        <ul class="p-3">
+                            <li class="text-center">31</li>
+                            <li>AUG</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="blog-content py-4 px-10 hover:border-r-2 hover:border-indigo-500">
+                    <div>
+                        <h2 class="text-lg font-semibold mb-2 jost black">Principal's Blog 18 August 2023</h2>
+                        <p class="text-sm text-gray-600 mb-4 inter">Nemo enim ipsam see voluptatem quia voluptas sit
+                            Nemo enim ipsam see we avoluptatem quia voluptas.</p>
+                        <button class="hover:text-white border py-2 px-4 rounded hover:bg-blue-600 inter">
+                            Read More <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="text-center mt-6 mb-30">
+            <button class="bg-blue-500 text-white py-2 px-6 rounded hover:bg-blue-600">
+                Read More <i class="ri-arrow-right-line"></i>
+            </button>
+        </div>
+
+
+
+
+
+        <!-- FOOTER -->
+
+        <footer style="background: rgba(12, 84, 160, 1); " class="text-white pt-28 pb-2 mt-20">
+            <div class="container-1 mx-auto">
+                <div class="footer-inner">
+                    <img src="./assetes/images/banner-icone-1.png" style="position: absolute; top: -50;"
+                        class="w-[65px]" />
+                    <img src="./assetes/images/book.png" style="position: absolute;left:90% ;" />
+
+                    <div class="flex flex-wrap">
+                        <div class="w-3/12">
+                            <div class="footer-items">
+                                <img src="./assetes/images/logo-2.png" class="w-10 mx-auto" />
+                                <img src="./assetes/images/logo-1.png" class="w-40 mx-auto" />
+                            </div>
+                        </div>
+                        <div class="w-3/12  mx-auto">
+                            <div class="footer-items">
+                                <ul>
+                                    <li class="font-bold text-lg">
+                                        <a href="javascript:void(0)">Quick Links</a>
+                                    </li>
+                                    <li class="font-semibold pt-3">
+                                        <a href="javascript:void(0)">About Us</a>
+                                    </li>
+                                    <li class="font-semibold py-1">
+                                        <a href="javascript:void(0)">Why Podar</a>
+                                    </li>
+                                    <li class="font-semibold py-1">
+                                        <a href="javascript:void(0)">Download Beachure</a>
+                                    </li>
+                                    <li class="font-semibold py-1">
+                                        <a href="javascript:void(0)">Transport Policy</a>
+                                    </li>
+                                    <li class="font-semibold py-1">
+                                        <a href="javascript:void(0)">Careers </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="w-3/12">
+                            <div class="footer-items">
+                                <ul>
+                                    <li class="font-bold text-lg">
+                                        <a href="javascript:void(0)">Quick Links</a>
+                                    </li>
+                                    <li class="font-semibold pt-3">
+                                        <a href="javascript:void(0)">Admissionss</a>
+                                    </li>
+                                    <li class="font-semibold py-1">
+                                        <a href="javascript:void(0)">Locations</a>
+                                    </li>
+                                    <li class="font-semibold py-1">
+                                        <a href="javascript:void(0)">FAQs</a>
+                                    </li>
+                                    <li class="font-semibold py-1">
+                                        <a href="javascript:void(0)">Blog </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+
+                        <div class="w-3/12">
+                            <div class="footer-items">
+                                <div class="get-content px-3">
+                                    <p class="text-lg font-bold pb-5">Keep In Touch</p>
+
+                                    <!-- LOCATION -->
+
+                                    <div class="flex items-start mb-4">
+                                        <div class="text-purple-600">
+                                            <i class="ri-map-pin-range-fill bg-white rounded-full p-2 text-lg inline text-center"
+                                                style="  color:rgba(132, 61, 141, 1);"></i>
+                                        </div>
+                                        <div class="ml-4">
+
+                                            <p class="text-sm text-white pb-2 font-semibold">
+                                                85, Podar Centre, Chamarbaug Post Office Lane, Dr. Ambedkar Road, Parel,
+                                                Mumbai, 400012. Maharashtra, India.
+                                            </p>
+
+                                        </div>
+                                    </div>
+
+                                    <!-- number -->
+
+                                    <div class="flex items-start mb-4">
+                                        <div class="text-purple-600 w-8 h-8 flex-shrink-0">
+                                            <i class="ri-phone-fill bg-white rounded-full p-2  text-lg  inline text-center"
+                                                style="  color:rgba(132, 61, 141, 1); "></i>
+                                        </div>
+                                        <div class="ml-4">
+                                            <p class="text-sm text-white pb-2 font-semibold">022 43330000</p>
+                                        </div>
+                                    </div>
+
+                                    <!-- EMAIL -->
+
+                                    <div class="flex items-start mb-6 ">
+                                        <div class="w-8 h-8 flex-shrink-0 ">
+                                            <i class="ri-mail-fill bg-white rounded-full p-2 text-lg mr-3 w-9 h-[34px]  inline text-center"
+                                                style="  color:rgba(132, 61, 141, 1);"></i>
+                                        </div>
+                                        <div class="ml-4">
+
+                                            <p class="text-sm text-white pb-2 font-semibold">admissions@podar.org</p>
+                                        </div>
+                                    </div>
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- SOCIAL ICON -->
+
+            <div class="flex justify-center space-x-4">
+                <a href="javascript:void(0)"
+                    class="flex items-center justify-center w-10 h-10 border bg-white  rounded-full">
+                    <img src="./assetes/images/f-1.png" />
+                </a>
+
+                <a href="javascript:void(0)"
+                    class="flex items-center justify-center w-10 h-10 border  bg-white  rounded-full">
+                    <img src="./assetes/images/f-2.png" />
+                </a>
+                <a href="javascript:void(0)"
+                    class="flex items-center justify-center w-10 h-10 border bg-white  rounded-full">
+                    <img src="./assetes/images/f-3.png" />
+                </a>
+
+                <a href="javascript:void(0)"
+                    class="flex items-center justify-center w-10 h-10 border bg-white  rounded-full">
+                    <img src="./assetes/images/f-4.png" />
+                </a>
+            </div>
+
+            <!-- COPYRIGHT -->
+
+            <div class="copyright">
+                <div class="text-center text-white pt-10">
+                    <a href="javascript:void(0)">Copyright 2022|Privacy Policy| Terms & Conditions</a>
+                </div>
+            </div>
+
+    </div>
+    </footer>
+
+</body>
+
+</html>
